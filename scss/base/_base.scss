@@ -1,0 +1,16 @@
+.container {
+    text-align: center;
+    font-family: $font-url-google;
+    color: $base;
+    font-size: $font-size-small;
+    line-height: 2;
+}
+
+p {
+    padding: em(20px) em(40px);
+    text-align: left;
+    @include mq(medium) {
+        max-width: em(600px);
+        margin: auto;
+;    }
+}

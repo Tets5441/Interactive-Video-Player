@@ -1,0 +1,7 @@
+video {
+    max-width: 100%;
+    @include mq(medium){
+        max-width: em(600px);
+        padding-top: em(40px);
+    }
+}

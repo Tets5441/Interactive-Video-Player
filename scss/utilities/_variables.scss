@@ -1,0 +1,32 @@
+//----------------------
+// FONTS
+//----------------------
+
+//font-stacks
+
+$font-url-google : 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300,400,400i,500,600,700';
+$font-primary   :   'IBM Plex Sans', sans-serif;
+$font-secondary-sans : 'Helvetica, Arial, sans-serif';
+
+//font color 
+
+$base    : #5e5e5e;
+$h-light : #ffc261;
+
+// font weight
+
+$font-weight-reg:   400;
+
+// font-size
+
+$font-size-small:  16px;
+$font-size-base:   18px;
+
+
+//----------------------
+//BREAKPOINTS
+//----------------------
+
+$brkpoint-sm    :   1px;
+$brkpoint-md    :   768px;
+$brkpoint-lg    :   1399px;
