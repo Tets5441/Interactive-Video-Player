@@ -305,18 +305,23 @@ template {
   line-height: 2; }
 
 p {
-  padding: 1.1111111111em 2.2222222222em;
+  padding: 1.1111111111em 0.5555555556em;
   text-align: left; }
   @media (min-width: 769px) {
     p {
-      max-width: 33.3333333333em;
+      max-width: 852px;
       margin: auto; } }
 
 video {
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
+
+.videoWrapper {
+  margin: auto;
+  padding: 1.6666666667em 0.5555555556em 0;
+  height: 480px; }
   @media (min-width: 769px) {
-    video {
-      max-width: 33.3333333333em;
-      padding-top: 2.2222222222em; } }
+    .videoWrapper {
+      width: 852px; } }
 
 /*# sourceMappingURL=styles.css.map */

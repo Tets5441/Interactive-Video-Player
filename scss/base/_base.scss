@@ -7,10 +7,11 @@
 }
 
 p {
-    padding: em(20px) em(40px);
+    padding: em(20px) em(10px);
     text-align: left;
     @include mq(medium) {
-        max-width: em(600px);
+        max-width: 852px;
         margin: auto;
 ;    }
 }
+
