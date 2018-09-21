@@ -1,12 +1,7 @@
-video {
-    max-width: 100%;
-    height: auto;
-}
 
 .videoWrapper {
     margin: auto;
     padding: em(30px) em(10px) 0;
-    height: 480px;
     @include mq(medium) {
         width: 852px;
     }
