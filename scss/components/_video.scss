@@ -5,3 +5,10 @@
         width: 852px;
     }
 }
+
+.mejs__controls:not([style*='display: none']) {
+    background: linear-gradient(transparent, #74bad3);
+}
+.mejs__time-current, .mejs__time-handle-content {
+    background: cadetblue;
+}

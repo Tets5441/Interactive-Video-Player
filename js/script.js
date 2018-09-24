@@ -22,6 +22,15 @@ vid.ontimeupdate = () => {
   }
 };
 
+// jump to selected sentence in video
+
+for(let i = 0; i < caps.length; i += 1) {
+  caps[i].addEventListener('click', (event) => {
+    vid.currentTime = event.target.getAttribute('data-start');
+    vid.play();
+  })
+}
+
 
 
  
