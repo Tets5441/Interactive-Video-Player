@@ -312,14 +312,8 @@ p {
       max-width: 852px;
       margin: auto; } }
 
-video {
-  max-width: 100%;
-  height: auto; }
-
 .videoWrapper {
-  margin: auto;
-  padding: 1.6666666667em 0.5555555556em 0;
-  height: 480px; }
+  margin: auto; }
   @media (min-width: 769px) {
     .videoWrapper {
       width: 852px; } }

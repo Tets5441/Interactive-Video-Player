@@ -1,7 +1,6 @@
 
 .videoWrapper {
     margin: auto;
-    padding: em(30px) em(10px) 0;
     @include mq(medium) {
         width: 852px;
     }
