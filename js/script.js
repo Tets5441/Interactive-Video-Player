@@ -7,10 +7,10 @@ $('video').mediaelementplayer({
 // highlight transcript to match video 
 
 const vid = document.getElementsByTagName('video')[0];
-let caps = document.getElementsByTagName('span');
+let caps = document.querySelectorAll('.captions');
 
 vid.ontimeupdate = () => {
-  for (let i = 0; i <= caps.length; i ++) {
+  for (let i = 0; i <= caps.length - 1; i ++) {
     const sync = vid.currentTime;
     if (sync > caps[i].getAttribute("data-start")
     && sync < caps[i].getAttribute("data-end")) {
